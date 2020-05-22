@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    color: #000;
+    font-family: arial, sans-serif;
+}
+
+.nav {
+    text-align: right;
+    margin: 0px;
+    font-size: 13px;
+    
+    
+}
+
+.nav a {
+    display: inline;
+    margin: 5px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.nav .google-apps {
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-size: 528px 68px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    background-position: -132px -38px;
+    opacity: .55;
+    vertical-align: middle;
+
+}
+
+.nav .Sign-in{
+    border: 1px solid #4285f4;
+    background: #4285f4;
+    background-color: #4285f4;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 0 12px;
+    line-height: 28px;
+    color: #fff;
+    display: inline-block;
+    
+
+}
+
+
+.image {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+    width: 500px;
+}
+
+
+.search{
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    z-index: 3;
+    box-shadow: none;
+}
+
+.search input{
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    border: 1px solid #dfe1e5;
+    background-color: transparent;
+    outline: none;
+    
+    
+    
+}
+
+.buttons {
+    text-align: center;
+    height: 70px;
+    padding-top: 18px;
+    top: 53px;
+    
+    
+}
+
+.buttons button {
+    color: #222;
+    border-radius: 4px;
+    border: 1px solid #f2f2f2;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    color: #5F6368;
+    
+}
+
+.buttons p{
+    display: block;
+    font-size: small;
+}
+    
+
+.buttons a{
+    text-decoration: none;
+    padding: 0 3px;
+    color: #1a0dab;
+    cursor: pointer;
+}
+
+.footer {
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    z-index: 104;
+    width: 100%;
+    line-height: 40px;
+    background: #f2f2f2;
+    
+
+}
+
+.footer a{
+    display: inline-block;
+    color: #5F6368;
+    padding-left: 27px;
+    text-decoration: none;
+    margin: 0 !important;
+    font-size: 14px;
+    
+
+}
+
+.footer span{
+    float: right;
+    margin-right: 30px;
+
+
+}
